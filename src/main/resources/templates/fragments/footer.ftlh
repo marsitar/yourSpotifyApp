@@ -1,0 +1,1 @@
+<div class="navbar fixed-bottom text-center">YourSpotifyApplication created by <strong>Marek Sitarski&copy;</strong> ${.now?string.yyyy}</div>

@@ -1,0 +1,126 @@
+2019-10-22 21:46:47.870  INFO 235188 --- [main] c.s.yourspotify.YourspotifyApplication   : Starting YourspotifyApplication on DESKTOP-VI2L4E3 with PID 235188 (C:\NAUKA_IT\JAVA\PROJEKT_CURRENDA\yourspotify\target\classes started by Marek in C:\NAUKA_IT\JAVA\PROJEKT_CURRENDA\yourspotify)
+2019-10-22 21:46:47.883  INFO 235188 --- [main] c.s.yourspotify.YourspotifyApplication   : No active profile set, falling back to default profiles: default
+2019-10-22 21:46:48.682  INFO 235188 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-22 21:46:48.686  INFO 235188 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-22 21:46:48.718  INFO 235188 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.sitarski.yourspotify.dao.ArtistRepository.
+2019-10-22 21:46:48.721  INFO 235188 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.sitarski.yourspotify.dao.TrackRepository.
+2019-10-22 21:46:48.724  INFO 235188 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+2019-10-22 21:46:48.729  INFO 235188 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-22 21:46:48.731  INFO 235188 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-22 21:46:48.737  INFO 235188 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.sitarski.yourspotify.dao.ArtistRepository.
+2019-10-22 21:46:48.739  INFO 235188 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.sitarski.yourspotify.dao.TrackRepository.
+2019-10-22 21:46:48.740  INFO 235188 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-10-22 21:46:48.751  INFO 235188 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-22 21:46:48.754  INFO 235188 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-22 21:46:48.792  INFO 235188 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32ms. Found 2 repository interfaces.
+2019-10-22 21:46:49.143  INFO 235188 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-22 21:46:49.549  INFO 235188 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-22 21:46:49.560  INFO 235188 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-22 21:46:49.562  INFO 235188 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-22 21:46:49.682  INFO 235188 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-22 21:46:49.684  INFO 235188 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1708 ms
+2019-10-22 21:46:49.724  INFO 235188 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-22 21:46:49.742  INFO 235188 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-22 21:46:49.794  INFO 235188 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2019-10-22 21:46:49.930  INFO 235188 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-10-22 21:46:49.994  INFO 235188 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2019-10-22 21:46:50.120  INFO 235188 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-10-22 21:46:50.214  INFO 235188 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-10-22 21:46:50.736  INFO 235188 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-10-22 21:46:50.742  INFO 235188 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-22 21:46:50.834  WARN 235188 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-22 21:46:51.136  INFO 235188 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-22 21:46:51.669  INFO 235188 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-22 21:46:51.672  INFO 235188 --- [main] c.s.yourspotify.YourspotifyApplication   : Started YourspotifyApplication in 4.642 seconds (JVM running for 5.14)
+2019-10-22 21:47:21.063  INFO 229252 --- [main] c.s.yourspotify.YourspotifyApplication   : Starting YourspotifyApplication on DESKTOP-VI2L4E3 with PID 229252 (C:\NAUKA_IT\JAVA\PROJEKT_CURRENDA\yourspotify\target\classes started by Marek in C:\NAUKA_IT\JAVA\PROJEKT_CURRENDA\yourspotify)
+2019-10-22 21:47:21.075  INFO 229252 --- [main] c.s.yourspotify.YourspotifyApplication   : No active profile set, falling back to default profiles: default
+2019-10-22 21:47:21.723  INFO 229252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-22 21:47:21.727  INFO 229252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-22 21:47:21.762  INFO 229252 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.sitarski.yourspotify.dao.ArtistRepository.
+2019-10-22 21:47:21.764  INFO 229252 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.sitarski.yourspotify.dao.TrackRepository.
+2019-10-22 21:47:21.766  INFO 229252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+2019-10-22 21:47:21.771  INFO 229252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-22 21:47:21.774  INFO 229252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-22 21:47:21.779  INFO 229252 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.sitarski.yourspotify.dao.ArtistRepository.
+2019-10-22 21:47:21.781  INFO 229252 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.sitarski.yourspotify.dao.TrackRepository.
+2019-10-22 21:47:21.782  INFO 229252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-10-22 21:47:21.791  INFO 229252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-22 21:47:21.793  INFO 229252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-22 21:47:21.826  INFO 229252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26ms. Found 2 repository interfaces.
+2019-10-22 21:47:22.138  INFO 229252 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-22 21:47:22.547  INFO 229252 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-22 21:47:22.558  INFO 229252 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-22 21:47:22.559  INFO 229252 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-22 21:47:22.663  INFO 229252 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-22 21:47:22.665  INFO 229252 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1530 ms
+2019-10-22 21:47:22.701  INFO 229252 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-22 21:47:22.719  INFO 229252 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-22 21:47:22.767  INFO 229252 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2019-10-22 21:47:22.909  INFO 229252 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-10-22 21:47:22.967  INFO 229252 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2019-10-22 21:47:23.098  INFO 229252 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-10-22 21:47:23.209  INFO 229252 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-10-22 21:47:23.727  INFO 229252 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-10-22 21:47:23.733  INFO 229252 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-22 21:47:23.833  WARN 229252 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-22 21:47:24.172  INFO 229252 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-22 21:47:24.741  INFO 229252 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-22 21:47:24.745  INFO 229252 --- [main] c.s.yourspotify.YourspotifyApplication   : Started YourspotifyApplication in 4.52 seconds (JVM running for 4.987)
+2019-10-22 21:47:31.914  INFO 229252 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-22 21:47:31.918  INFO 229252 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-22 21:47:31.933  INFO 229252 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2019-10-22 21:49:57.224  INFO 219052 --- [main] c.s.yourspotify.YourspotifyApplication   : Starting YourspotifyApplication on DESKTOP-VI2L4E3 with PID 219052 (C:\NAUKA_IT\JAVA\PROJEKT_CURRENDA\yourspotify\target\classes started by Marek in C:\NAUKA_IT\JAVA\PROJEKT_CURRENDA\yourspotify)
+2019-10-22 21:49:57.234  INFO 219052 --- [main] c.s.yourspotify.YourspotifyApplication   : No active profile set, falling back to default profiles: default
+2019-10-22 21:49:57.852  INFO 219052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-22 21:49:57.857  INFO 219052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-22 21:49:57.906  INFO 219052 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.sitarski.yourspotify.dao.ArtistRepository.
+2019-10-22 21:49:57.910  INFO 219052 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.sitarski.yourspotify.dao.TrackRepository.
+2019-10-22 21:49:57.912  INFO 219052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47ms. Found 0 repository interfaces.
+2019-10-22 21:49:57.919  INFO 219052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-22 21:49:57.922  INFO 219052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-22 21:49:57.929  INFO 219052 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.sitarski.yourspotify.dao.ArtistRepository.
+2019-10-22 21:49:57.932  INFO 219052 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.sitarski.yourspotify.dao.TrackRepository.
+2019-10-22 21:49:57.934  INFO 219052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-10-22 21:49:57.947  INFO 219052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-22 21:49:57.952  INFO 219052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-22 21:49:57.996  INFO 219052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37ms. Found 2 repository interfaces.
+2019-10-22 21:49:58.333  INFO 219052 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-22 21:49:58.747  INFO 219052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-22 21:49:58.758  INFO 219052 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-22 21:49:58.759  INFO 219052 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-22 21:49:58.867  INFO 219052 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-22 21:49:58.868  INFO 219052 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1579 ms
+2019-10-22 21:49:58.917  INFO 219052 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-22 21:49:58.935  INFO 219052 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-22 21:49:58.988  INFO 219052 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2019-10-22 21:49:59.112  INFO 219052 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-10-22 21:49:59.173  INFO 219052 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.6.Final}
+2019-10-22 21:49:59.308  INFO 219052 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-10-22 21:49:59.400  INFO 219052 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-10-22 21:49:59.974  INFO 219052 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-10-22 21:49:59.980  INFO 219052 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-22 21:50:00.090  WARN 219052 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-22 21:50:00.403  INFO 219052 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-22 21:50:00.953  INFO 219052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-22 21:50:00.957  INFO 219052 --- [main] c.s.yourspotify.YourspotifyApplication   : Started YourspotifyApplication in 4.486 seconds (JVM running for 4.958)
+2019-10-22 21:50:03.310  INFO 219052 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-22 21:50:03.314  INFO 219052 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-22 21:50:03.327  INFO 219052 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-10-22 21:50:32.028  INFO 219052 --- [http-nio-8080-exec-7] c.s.yourspotify.service.ArtistService    : Artist objects are to be get from database
+2019-10-22 21:50:32.166  INFO 219052 --- [http-nio-8080-exec-7] c.s.yourspotify.service.ArtistService    : Artist objects IDs are to be get from database
+2019-10-22 21:50:32.167  INFO 219052 --- [http-nio-8080-exec-7] c.s.yourspotify.service.ArtistService    : Artist objects are to be get from database
+2019-10-22 21:50:32.602  INFO 219052 --- [http-nio-8080-exec-8] c.s.yourspotify.service.TrackService     : Track objects are to be get from database
+2019-10-22 21:50:32.606  INFO 219052 --- [http-nio-8080-exec-8] c.s.yourspotify.service.TrackService     : Track objects IDs are to be get from database
+2019-10-22 21:50:32.609  INFO 219052 --- [http-nio-8080-exec-8] c.s.yourspotify.service.TrackService     : Track objects are to be get from database
+2019-10-22 21:53:17.762  INFO 219052 --- [http-nio-8080-exec-3] c.s.yourspotify.service.ArtistService    : Artist objects are to be get from database
+2019-10-22 21:53:17.764  INFO 219052 --- [http-nio-8080-exec-3] c.s.yourspotify.service.ArtistService    : Artist objects IDs are to be get from database
+2019-10-22 21:53:17.765  INFO 219052 --- [http-nio-8080-exec-3] c.s.yourspotify.service.ArtistService    : Artist objects are to be get from database
+2019-10-22 21:53:18.258  INFO 219052 --- [http-nio-8080-exec-4] c.s.yourspotify.service.TrackService     : Track objects are to be get from database
+2019-10-22 21:53:18.260  INFO 219052 --- [http-nio-8080-exec-4] c.s.yourspotify.service.TrackService     : Track objects IDs are to be get from database
+2019-10-22 21:53:18.261  INFO 219052 --- [http-nio-8080-exec-4] c.s.yourspotify.service.TrackService     : Track objects are to be get from database
+2019-10-22 21:53:27.940  INFO 219052 --- [http-nio-8080-exec-1] c.s.yourspotify.service.ArtistService    : Artist objects are to be get from database
+2019-10-22 21:53:27.943  INFO 219052 --- [http-nio-8080-exec-1] c.s.yourspotify.service.ArtistService    : Artist objects IDs are to be get from database
+2019-10-22 21:53:27.944  INFO 219052 --- [http-nio-8080-exec-1] c.s.yourspotify.service.ArtistService    : Artist objects are to be get from database
+2019-10-22 21:53:28.507  INFO 219052 --- [http-nio-8080-exec-2] c.s.yourspotify.service.TrackService     : Track objects are to be get from database
+2019-10-22 21:53:28.509  INFO 219052 --- [http-nio-8080-exec-2] c.s.yourspotify.service.TrackService     : Track objects IDs are to be get from database
+2019-10-22 21:53:28.510  INFO 219052 --- [http-nio-8080-exec-2] c.s.yourspotify.service.TrackService     : Track objects are to be get from database

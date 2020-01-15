@@ -27,7 +27,7 @@
 > In favorite tracks tab the user is allowed to preview tracks which have been already added to the repository. Moreover, the user can remove an track from a favorite.
 ![Favourite Tracks](./docs/favorite_tracks.png) 
 ### Logs
-> An additional feature that lets the user preview a logs form application.
+> An additional feature that lets the user preview a logs form application. Logs on various levels are saved both in file and database.
 ![Logs](./docs/logs.png) 
 
 ## Technologies
@@ -38,7 +38,6 @@
 * Hibernate 5.4.4
 * Rest API
 * H2 (NoSQL database)
-* MySQL 8.0.15
 * FasterXML/Jackson 2.9.10
 * SLF4J 1.7.28
 * Maven 3.3.9
